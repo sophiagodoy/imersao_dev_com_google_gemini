@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--coloca o idioma como portugues-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!--linka o documento a um arquivo CSS externo chamado styles.css, que contém estilos adicionais para a página-->
+    <title>Olipíadas</title> <!-- define o título da página que aparece na aba do navegador-->
+</head>
+<body> <!--contém o conteúdo visível da página-->
+    <header> <!--usado para o cabeçalho da página-->
+        <h1>Atletas do Brasil</h1> <!--defini o título principal da página-->
+    </header>
+    <main> <!--representa o conteúdo principal da página-->
+        <section> <!--utilizado para campo de pesquisa-->
+            <input type="text" placeholder="Digite o nome do atleta ou esporte" id="campo-pesquisa"> <!--campo para a entrada do texto e id="campo-pesquisa" serve para identificar essa seção de maneira única na página, permitindo referências específicas em JavaScript ou CSS-->
+            <button onclick = "pesquisar()">Pesquisar</button> <!--cria um botão com o nome pesquisa e onclick atribui um evento de clique ao botão, de modo que, quando ele for clicado, a função JavaScript pesquisar() seja chamada. -->
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"> <!--class="resultados-pesquisa" - faz referencia a uma parte do código CSS e id="resultados-pesquisa" serve para identificar essa seção de maneira única na página, permitindo referências específicas em JavaScript ou CSS-->
+            <!-- <div class = "item-resultado"> 
+                <h2> 
+                    <a href="#" target="_blank">Rebeca Andrade</a> 
+                </h2>
+                <p class="descricao-meta"> Rebeca Andrade é uma das maiores ginastas da história do Brasil. Com um talento inegável e uma força de vontade admirável, ela conquistou o coração dos brasileiros e se tornou um símbolo de superação. </p> 
+                <a href="https://pt.wikipedia.org/wiki/Rebeca_Andrade" target="_blank">Mais informações</a> 
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">Rayssa Leal</a>
+                </h2>
+                <p class="descricao-meta">Rayssa Leal, a Fadinha, é uma skatista brasileira que conquistou o mundo com seu talento e carisma. Aos poucos anos, ela já coleciona títulos e se tornou um ícone para a nova geração de skatistas.</p>
+                <a href="https://pt.wikipedia.org/wiki/Rayssa_Leal" target="_blank">Mais informações</a>
+            </div>          
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">Beatriz Souza</a>
+                </h2>
+                <p class="descricao-meta">Beatriz Souza é uma judoca brasileira que se destacou nos Jogos Olímpicos de Paris, conquistando a medalha de ouro. Sua história de superação e dedicação inspirou muitos jovens atletas.</p>
+                <a href="https://pt.wikipedia.org/wiki/Beatriz_Souza#:~:text=Beatriz%20Souza%20(Itariri,%2020%20de%20maio%20de%201998)%20%C3%A9%20uma" target="_blank">Mais informações</a>
+            </div> -->
+        </section>
+        </main>
+        </main>
+    </main>
+    <footer> <!--usada para o rodapé da página, que geralmente contém informações de contato, direitos autorais-->
+        <p>2024 - Atletas do Brasil. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: sophiagodoy.profissional@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script> <!-- incluindo um arquivo em Java na página web-->
+    <script src="app.js"></script> <!-- incluindo um arquivo em Java na página web-->
+</body>
+
+</html>
